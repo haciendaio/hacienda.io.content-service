@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/www-thoughtworks-com/hacienda.git
-  revision: 51db1d05ad2f34d552c2fe085a0c616c0985abda
+  revision: 0bbb0a6b10bff1cdf1ceefbd4a3987b1fba89021
   specs:
     hacienda (0.1.25.0)
-      json (= 1.7.7)
+      json (= 1.8.2)
       multi_json
       octokit (= 2.5.1)
       rugged (~> 0.21.0)
@@ -18,7 +18,7 @@ GEM
     backports (3.6.4)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
-    json (1.7.7)
+    json (1.8.2)
     kgio (2.9.3)
     multi_json (1.11.0)
     multipart-post (2.0.0)
