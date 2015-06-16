@@ -1,4 +1,7 @@
 require 'hacienda_service'
 
-Hacienda::HaciendaService.load_config_file './config/config.yml'
-Hacienda::HaciendaService.run!
+config_file = Pathname.new(File.dirname(__FILE__)).join('config/config.yml').to_s
+
+Hacienda::HaciendaService.load_config_file config_file
+
+run Hacienda::HaciendaService
