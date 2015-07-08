@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/www-thoughtworks-com/hacienda.git
-  revision: 0bbb0a6b10bff1cdf1ceefbd4a3987b1fba89021
+  revision: b5742207a4d1238c8d4332d6b2bc87a75a076ceb
   specs:
-    hacienda (0.1.25.0)
+    hacienda (0.2.0.gb574220)
       json (= 1.8.2)
       multi_json
       octokit (= 2.5.1)
@@ -20,16 +20,16 @@ GEM
       multipart-post (>= 1.2, < 3)
     json (1.8.2)
     kgio (2.9.3)
-    multi_json (1.11.0)
+    multi_json (1.11.2)
     multipart-post (2.0.0)
     octokit (2.5.1)
       sawyer (~> 0.5.1)
-    rack (1.6.1)
+    rack (1.6.4)
     rack-protection (1.5.3)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    raindrops (0.13.0)
+    raindrops (0.14.0)
     rugged (0.21.4)
     sawyer (0.5.5)
       addressable (~> 2.3.5)

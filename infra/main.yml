@@ -16,7 +16,7 @@
       command: tar -xvf /root/archives/hacienda.io.content-service.tar.gz -C /root/deployments/hacienda.io.content-service
 
     - name: getting the gems (maybe i should not be doing this in prod)
-      command: bundle install
+      command: bash -lc "bundle update"
       args:
         chdir: /root/deployments/hacienda.io.content-service
 
