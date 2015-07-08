@@ -1,8 +1,7 @@
-production:
-  github_organisation: www-thoughtworks-com
-  logging: true
-  log_path: /tmp/content_service_dev.log
-  content_directory_path: /root/dev/hacienda.io.content
-  key_file: /tmp/content_service/keys_test.yml
-  content_repo: hacienda.development.content
-  github_user: tw-content-service
+github_organisation: www-thoughtworks-com
+logging: true
+log_path: /tmp/content_service_dev.log
+content_directory_path: /root/dev/hacienda.io.content
+key_file: /tmp/content_service/keys_test.yml
+content_repo: hacienda.development.content
+github_user: tw-content-service
